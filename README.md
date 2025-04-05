@@ -23,7 +23,7 @@
 ---
 ## ML MODEL:
 - Performed One hot encoding to represent the categorical values in binary form since machine learning algorithms cannot operate on label data directly.
--  I also split the data into train and tests sets with a test size of 20%.
+-  We also split the data into train and tests sets with a test size of 20%.
 Model Used:- 
 1. Multiple Linear Regression - r^2 value of **0.86**
 ---
@@ -35,8 +35,7 @@ Built a function to predict the house price with location, number of Square foot
 The prices mentioned are in Lakhs(Indian Currency)
 
 ## Deployment
-In this step, I built a **streamlit** API endpoint that was hosted on **Heroku**. The API endpoint takes in a request with a list of values from location, number of Square foot area, Bathroom, and BHK.
-[Web_Page](https://bangalore-house-price.herokuapp.com/)
+In this step, We built a **streamlit** API endpoint that was hosted on **Heroku**. The API endpoint takes in a request with a list of values from location, number of Square foot area, Bathroom, and BHK.
 
 
 
