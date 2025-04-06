@@ -67,10 +67,10 @@ def main():
 
     if st.button("House Price in Lakhs"):
         result=predict_price(location,sqft,bath,bhk)
-    st.success('The output is {}'.format(result))
+    st.success('The estimated price of the house is {}'.format(result))
     if st.button("About"):
         st.text("Please find the code at")
-        st.text("https://github.com/Lokeshrathi/Bangalore-house-s-rate")
+        st.text("https://github.com/Shrinaaaath/Bengaluru-House-Price-Prediction")
 
 if __name__=='__main__':
     main()
